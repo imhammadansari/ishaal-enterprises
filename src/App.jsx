@@ -15,7 +15,7 @@ import HomeConstruction from './Pages/ServicePage/HomeConstruction'
 import DgRental from './Pages/ServicePage/DgRental'
 import GeneralProducts from './Pages/ServicePage/GeneralProducts'
 import Gallery from './Pages/MediaPage.jsx/Gallery'
-import IsoCertificates from './Pages/MediaPage.jsx/IsoCertificates'
+import IsoCertificatesPage from './Pages/MediaPage.jsx/IsoCertificatesPage'
 
 function App() {
 
@@ -37,7 +37,7 @@ function App() {
         <Route path='/services/dg-rental' element = {<DgRental />} />
         <Route path='/services/general-products' element = {<GeneralProducts />} />
         <Route path='/media/gallery' element = {<Gallery />} />
-        <Route path='/media/iso-certificates' element = {<IsoCertificates />} />
+        <Route path='/media/iso-certificates' element = {<IsoCertificatesPage />} />
 
       </Routes>
     </>
